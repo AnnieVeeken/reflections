@@ -1,0 +1,58 @@
+The file comparing command FC filename1 filename2 shows the differences
+ between the names files. This can be handy if the first code is working
+ and the second has an error. May be a typo.
+ With FC on the commandline you can see the differences between the 
+ files.
+
+ How could having easy access to the entire history of a file make you a
+ more efficient programmer in the long term?
+you could learn from your mistakes and recall ap art that you dissmissed
+ but later on want back. You can copy parts of code.
+
+ What do you think are the pros and cons of manually choosing when to 
+ create a commit, like you do in Git, vs having versions automatically
+ saved, like Google Docs does?
+If you choose manually you can select the time when the coding 'works' 
+and a part is rounded off. On the other hand you can forget to commit.
+
+Why do you think some version control systems, like Git, allow saving
+ multiple files in one commit, while others, like Google Docs, treat 
+ each file separately?
+Git is made especially for coding where often more than 1 file is 
+changed. 
+
+How can you use the commands git log and git diff to view the history
+ of files?
+With git log you can see all the commits with its id, author and date. 
+Also a message about the reason to commit. Use q to quit the log.
+With git diff id-old id-new you can see the differences between the
+two commits, which lines are deletedand which are added.
+
+How might using version control make you more confident to make
+changes that could break something?
+To know that you can always go back to when code was working makes 
+you more adventurous.
+
+Now that you have your workspace set up, what do you want to try 
+using Git for?
+I am going to use it for my android programs.
+
+Git commands:
+git diff
+Compares two commits, printing each line that is present in one commit
+ but not the other. It takes two arguments - the two commit ids to 
+ compare. 
+
+git clone
+Makes a copy of an entire Git repository, including the history, onto 
+your own computer. It takes one argument - the url of the repository to 
+copy. 
+
+git checkout
+Temporarily resets all files in a directory to their state at the time 
+of a specific commit. It takes one argument - the commit ID to 
+restore. 
+
+git log 
+Shows the commits made in this repository, starting with the most 
+recent. It doesn't take any arguments.
