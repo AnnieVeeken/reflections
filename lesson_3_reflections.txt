@@ -1,2 +1,24 @@
-When would you want to use a remote repository rather than keeping all your work local?
-when you are somewhere else, using another computer, or when another person wants to add sometihing to the repository.
+When would you want to use a remote repository rather than keeping all 
+your work local?
+when you are somewhere else, using another computer, or when another 
+person wants to add sometihing to the repository.
+
+Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
+You only want to pull when you are ready for new files, not when you 
+are working on it.
+
+git remote
+shows which remote branches you have.
+
+git remote -v
+shows more details
+
+git remote add origin https://github.com/AnnieVeeken/reflections.git
+adds remote branch called origin on https... to local repository
+
+git push origin master
+pushes local branch master to remote repostory origin
+
+git pull origin master
+pulls the branch master from remote repostory origin
