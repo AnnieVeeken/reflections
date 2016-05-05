@@ -22,3 +22,35 @@ git diff commit1 commit2 compares commit1 with commit2
 How can you use the staging area to make sure you have one commit per 
 logical change?
 You can add all files you need to staging area.
+
+git branch shows which branches there are
+git branch easy-mode creates a branch called easy-mode
+to go to the branch use git checkout.
+
+What are some situations when branches would be helpful in keeping your
+ history organized? How would branches help?
+If more than 1 person are working on different parts of a file. When
+you want to try something , but also want to keep working on the master.
+
+git log --graph --oneline master easy-mode shows a graph of commits of
+branches master and easy-mode
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show the relations between the commits  and branches.
+
+git merge master coins merges branch coins into master. First checkout 
+to master.
+
+git show commit-id shows the differences between a commit and its parent
+
+git branch -d coins deletes the label coins of the old branch. The 
+commits stay visible
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+All the commits of both branches are now reachable. FIles are merged.
+In the diagram it is showed as if the two branches are combined.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+Pro: it saves a lot of work. Con: maybe can merge too much.
