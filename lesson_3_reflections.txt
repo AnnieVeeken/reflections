@@ -22,3 +22,19 @@ pushes local branch master to remote repostory origin
 
 git pull origin master
 pulls the branch master from remote repostory origin
+
+Fork on GitHub makes a clone on GitHub. Use git clone https... to 
+add it to your working repository.
+
+Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+Fork is a clone of a repository on github.
+Clone is a copy of a repository on working directory.
+Branch is a name for a series of commits.
+
+git pull origin/master == git fetch origin + git merge master origin/master
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+Changes other people make are commits on that state. Later your own 
+changes can be merged from that point.
